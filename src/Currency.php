@@ -28,7 +28,7 @@ class Currency
     /**
      * @var array
      */
-    private static $currencies = [
+    protected static $currencies = [
       'AED' => [
         'display_name' => 'UAE Dirham',
         'numeric_code' => 784,
@@ -1126,7 +1126,7 @@ class Currency
     /**
      * @var string
      */
-    private $currencyCode;
+    protected $currencyCode;
 
     /**
      * @param  string $currencyCode
